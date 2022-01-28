@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import ClassComponentCounter from "./ClassComponentCounter";
 
 
-function App() {
+function UseStateHook() {
   const [count, setCount] = useState(0)
   return (
     <div>
@@ -16,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default UseStateHook;
