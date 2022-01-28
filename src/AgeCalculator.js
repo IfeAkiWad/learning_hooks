@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import TimesThree from "./TimesThree";
 
  const AgeCalculator = () => {
     const [age, setAge] = useState("")
@@ -17,10 +18,11 @@ import React, { useState, useEffect } from "react"
       <h1>Age Calculator</h1>
       I'm learning how to use the useEffect hook<br /><br />
       Enter age: <input type="text" value={age} onChange={handleOnChange} /><br /><br />
-        <h3>Click button to multiply by two</h3>
-        <button onClick={AgeCalculator}>Age Calculator</button><br /><br />
-        result: <b>{calculator}</b>
-        {/* <button onClick={setAge(age / 4)}></button> */}
+      <h3>multiplied by two</h3>
+      {/* <button onClick={setCalculator}>Age Calculator</button><br /><br /> */}
+      result: <b>{calculator}</b><br /><br />
+      <TimesThree age={age}/>
+      
     </div>
   )
 };
