@@ -15,7 +15,8 @@ import React, { useState, useEffect } from "react"
   return (
     <div>
       <h1>Age Calculator</h1>
-      type age: <input type="text" value={age} onChange={handleOnChange} /><br /><br />
+      I'm learning how to use the useEffect hook<br /><br />
+      Enter age: <input type="text" value={age} onChange={handleOnChange} /><br /><br />
         <h3>Click button to multiply by two</h3>
         <button onClick={AgeCalculator}>Age Calculator</button><br /><br />
         result: <b>{calculator}</b>
