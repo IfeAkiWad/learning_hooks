@@ -19,7 +19,7 @@ import TimesThree from "./TimesThree";
 
   return (
     <div>
-      <h1>Age Calculator</h1>
+      <h2>Age Calculator</h2>
       I'm learning how to use the useEffect hook<br /><br />
       Enter age: <input type="text" value={age} onChange={handleOnChange} />&nbsp;<button onClick={resetAge}>Reset</button><br /><br />
       <h3>multiplied by two</h3>
