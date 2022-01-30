@@ -4,6 +4,7 @@ import UseStateHook from './UseStateHook';
 import "./App.css";
 import AgeCalculator from './AgeCalculator';
 import Timer from './Timer';
+import Clock from './Clock';
 
 class App extends Component {
     render() { 
@@ -13,6 +14,7 @@ class App extends Component {
                 <br />
                 <AgeCalculator />
                 <Timer />
+                <Clock />
             </div>
         )
     }
