@@ -10,7 +10,6 @@ const TimesThree = (props) => {
     return (
     <div>
         <h3>multiplied by three</h3>
-        {/* <button onClick={setCalculator}>Age Calculator</button><br /><br /> */}
         result: <b>{calculator}</b><br /><br />
     </div>
   )

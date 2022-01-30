@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import TimerButton from './TimerButton';
 
 const Timer = () => {
     const [count, setCount] = useState(100)
@@ -12,15 +11,13 @@ const Timer = () => {
         if(count <= 0){
             setCount(0)
         }
-    });
+    }, [count]);
 
   return (
     <div>
         <h1>Countdown Timer</h1>
         LET'S COUNTDOWN FROM 100 BY 5!
         <h2>{count}</h2>
-        {/* <TimerButton count={count}/> */}
-        {/* <button onClick={() => setCount(count)}>Start Timer</button> */}
     </div>
   )
 };
