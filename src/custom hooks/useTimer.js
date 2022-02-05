@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 
-const Timer = () => {
+const useTimer = () => {
     const [state, setState] = useState(new Date())
 
     useEffect (() => {
@@ -11,4 +11,4 @@ const Timer = () => {
 
     return state
 }
-export default Timer
+export default useTimer

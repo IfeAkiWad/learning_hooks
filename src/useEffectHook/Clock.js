@@ -1,14 +1,16 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import useTimer from '../custom hooks/useTimer';
+// import { useState, useEffect } from 'react';
 
 const Clock = () => {
-    const [clock, setClock] = useState(new Date())
+    // const [clock, setClock] = useState(new Date())
 
-    useEffect (() => {
-        let timer = setInterval(() => setClock(new Date()),1000);
+    // useEffect (() => {
+    //     let timer = setInterval(() => setClock(new Date()),1000);
 
-        return () => clearInterval(timer)
-    })
+    //     return () => clearInterval(timer)
+    // })
+    const [clock] = useTimer(new Date())
 
   return (
       <div>
