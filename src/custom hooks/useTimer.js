@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react"
 
-const useTimer = () => {
+const useTimer = (date = new Date()) => {
     const [state, setState] = useState(new Date())
 
     useEffect (() => {
-        let timer = setInterval(() => setState(new Date()),1000);
+        let timer = setInterval(() => setState(date),1000);
 
         return () => clearInterval(timer)
     })
