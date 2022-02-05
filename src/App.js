@@ -11,11 +11,6 @@ class App extends Component {
     render() { 
         return (
             <div className='App'>
-                {/* <UseStateHook />
-                <br />
-                <AgeCalculator />
-                <Timer />
-                <Clock /> */}
                 <Router>
                 <NavBar />
                     <Routes>
