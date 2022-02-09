@@ -44,3 +44,7 @@ p{
   margin-right: auto;
   width: 50%;
 }
+
+hr.dashed {
+  border-top: 3px dashed #bbb;
+}

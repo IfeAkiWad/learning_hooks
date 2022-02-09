@@ -1,7 +1,8 @@
 import React, { useState } from "react"
+import VacationUseContext from "./VacationUseContext"
 
 function Vacation () {
-    const [james] = useState('James')
+    const [james, setJames] = useState('James')
 
     return (
         <div>
@@ -66,8 +67,11 @@ function PortoNovo({ james }) {
 function Lagos({ james }) {
     return (
         <div>
-            <h2> {`${james}`} has arrived in Lagos, Nigeria</h2>
+            <h2> {`${james}`} has arrived in Lagos, Nigeria</h2><br />
+            <hr class="dashed"></hr>
+            <VacationUseContext />
         </div>
     )
 }
+
 export default Vacation
