@@ -7,7 +7,7 @@ function UseStateHook() {
   const [count, setCount] = useState(0)
   return (
     <div>
-      <h2>Clicker</h2>
+      <h1>Clicker</h1>
         This is a counter built using useState hook.
         <h1>{count}</h1>
         <button onClick={() => setCount(count + 5)}>CLICK!</button><br /><br />
