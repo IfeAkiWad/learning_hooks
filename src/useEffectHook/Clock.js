@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import ClockWithCustomHook from '../custom hooks/ClockWithCustomHook';
+import ClockWithCustomHook from '../customhooks/ClockWithCustomHook';
 import Footer from '../Footer';
 
 const Clock = () => {
@@ -16,8 +16,9 @@ const Clock = () => {
       <div>
           <h1>What Time Is It?</h1>
           <h2>The time is {clock.toLocaleTimeString()}.</h2>
+          <hr className="dashed"></hr>
+          <ClockWithCustomHook /><br />
           <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useEffectHook/Clock.js" rel="noreferrer" target="_blank">Code</a>
-          {/* <ClockWithCustomHook /> */}
           <Footer />
       </div>
   );
