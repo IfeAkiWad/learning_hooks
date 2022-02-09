@@ -15,7 +15,7 @@ const Clock = () => {
       <div>
           <h1>What Time Is It?</h1>
           <h2>The time is {clock.toLocaleTimeString()}.</h2>
-          <ClockWithCustomHook />
+          {/* <ClockWithCustomHook /> */}
       </div>
   );
 };
