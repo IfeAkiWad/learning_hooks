@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import Footer from "../Footer";
 import ClassComponentCounter from "./ClassComponentCounter";
 
 
@@ -15,7 +16,7 @@ function UseStateHook() {
         this is a counter built using a class Component
         <ClassComponentCounter /><br />
         <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useStateHooks/UseStateHook.js" rel="noreferrer" target="_blank">Code</a>
-
+        <Footer />
     </div>
   );
 }

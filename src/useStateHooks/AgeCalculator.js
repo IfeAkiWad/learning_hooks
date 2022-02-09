@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import Footer from "../Footer";
 import TimesThree from "./TimesThree";
 
  const AgeCalculator = () => {
@@ -27,7 +28,7 @@ import TimesThree from "./TimesThree";
       result: <b>{calculator}</b><br /><br />
       <TimesThree age={age}/>
       <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useStateHooks/AgeCalculator.js" rel="noreferrer" target="_blank">Code</a>
-
+    <Footer />
     </div>
   )
 };
