@@ -60,6 +60,8 @@ function Lagos() {
     return (
         <div>
             <h2> {`${james}`} has arrived in Lagos, Nigeria</h2>
+            <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useContext/VacationUseContext.js" rel="noreferrer" target="_blank">Code</a>
+
         </div>
     )
 }

@@ -68,10 +68,10 @@ function PortoNovo({ james }) {
 function Lagos({ james }) {
     return (
         <div>
-            <h2> {`${james}`} has arrived in Lagos, Nigeria</h2><br />
+            <h2> {`${james}`} has arrived in Lagos, Nigeria</h2>
+            <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useContext/Vacation.js" rel="noreferrer" target="_blank">Code</a>
             <hr className="dashed"></hr>
             <VacationUseContext />
-            <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useContext/Vacation.js" rel="noreferrer" target="_blank">Code</a>
             <div><Footer /></div>
         </div>
     )

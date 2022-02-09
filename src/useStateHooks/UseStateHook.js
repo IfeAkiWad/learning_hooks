@@ -11,11 +11,12 @@ function UseStateHook() {
       <h2>Clicker</h2>
         this is a counter that was built using useState hook.
         <h1>{count}</h1>
-        <button onClick={() => setCount(count + 5)}>CLICK!</button>
+        <button onClick={() => setCount(count + 5)}>CLICK!</button><br /><br />
+        <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useStateHooks/UseStateHook.js" rel="noreferrer" target="_blank">Code</a>
       <br /><br />
         this is a counter built using a class Component
         <ClassComponentCounter /><br />
-        <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useStateHooks/UseStateHook.js" rel="noreferrer" target="_blank">Code</a>
+        <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useStateHooks/ClassComponentCounter.js" rel="noreferrer" target="_blank">Code</a>
         <Footer />
     </div>
   );

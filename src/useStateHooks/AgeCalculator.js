@@ -25,8 +25,9 @@ import TimesThree from "./TimesThree";
       Enter age: <input type="text" value={age} onChange={handleOnChange} />&nbsp;<button onClick={resetAge}>Reset</button><br /><br />
       <h3>multiplied by two</h3>
       result: <b>{calculator}</b><br /><br />
-      <TimesThree age={age}/>
       <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useStateHooks/AgeCalculator.js" rel="noreferrer" target="_blank">Code</a>
+      <TimesThree age={age}/>
+      <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useStateHooks/TimesThree.js" rel="noreferrer" target="_blank">Code</a>
     <Footer />
     </div>
   )
