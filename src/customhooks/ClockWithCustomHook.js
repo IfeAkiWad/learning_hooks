@@ -3,8 +3,8 @@ import useTimer from './useTimer';
 
 const ClockWithCustomHook = () => {
     const [clock] = useTimer(new Date())
-    console.log(clock)
-  return (
+
+    return (
       <div>
           <h3>This clock was built using a custom hook</h3>
           <h1>What Time Is It?</h1>
