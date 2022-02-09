@@ -18,6 +18,8 @@ const Timer = () => {
         <h1>Countdown Timer</h1>
         LET'S COUNTDOWN FROM 100 BY 5!
         <h2>{count}</h2>
+        <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useEffectHook/Timer.js" rel="noreferrer" target="_blank">Code</a>
+
     </div>
   )
 };

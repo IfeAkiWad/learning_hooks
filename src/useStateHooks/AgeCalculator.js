@@ -26,7 +26,8 @@ import TimesThree from "./TimesThree";
       {/* <button onClick={setCalculator}>Age Calculator</button><br /><br /> */}
       result: <b>{calculator}</b><br /><br />
       <TimesThree age={age}/>
-      
+      <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useStateHooks/AgeCalculator.js" rel="noreferrer" target="_blank">Code</a>
+
     </div>
   )
 };

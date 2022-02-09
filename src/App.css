@@ -48,3 +48,11 @@ p{
 hr.dashed {
   border-top: 3px dashed #bbb;
 }
+
+
+
+.footer{
+  text-align: center;
+  margin-top: 35%;
+  margin-bottom: 1%;
+}

@@ -13,7 +13,9 @@ function UseStateHook() {
         <button onClick={() => setCount(count + 5)}>CLICK!</button>
       <br /><br />
         this is a counter built using a class Component
-        <ClassComponentCounter />
+        <ClassComponentCounter /><br />
+        <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useStateHooks/UseStateHook.js" rel="noreferrer" target="_blank">Code</a>
+
     </div>
   );
 }
