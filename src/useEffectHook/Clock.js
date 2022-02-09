@@ -20,7 +20,7 @@ const Clock = () => {
           <hr className="dashed"></hr>
           <ClockWithCustomHook /><br />
           <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/customhooks/ClockWithCustomHook.js" rel="noreferrer" target="_blank">Code</a><br />
-          <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/customhooks/useTimer.js" rel="noreferrer" target="_blank">Timer custom hook Code</a>
+          <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/customhooks/useTimer.js" rel="noreferrer" target="_blank">Timer custom hook code</a>
 
           <Footer />
       </div>
