@@ -20,7 +20,7 @@ class App extends Component {
                     <Route path="/clickers" element={<UseStateHook />}/>
                     <Route path="/age-calculator" element={<AgeCalculator />}/>
                     <Route path="/timer" element={<Timer />}/>
-                    <Route path="/" element={<Clock />}/>
+                    <Route path="/clock" element={<Clock />}/>
                     <Route path="/vacation" element={<Vacation />}/>
                     </Routes>
                 </Router>
