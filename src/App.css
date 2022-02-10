@@ -58,3 +58,11 @@ hr.dashed {
   margin-top: 35%;
   margin-bottom: 1%;
 }
+
+.home-react-icon{
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
