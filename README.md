@@ -4,11 +4,11 @@ A React app showcasing my learning of React hooks in real time.
 
 ## Installation
 
-Run `npm install` in terminal for frontend to install all of the necessary gems in the frontend.
+Run `npm install` in terminal to install all of the necessary gems.
 
 ## Requirements
 
-Run `npm start`, to start and open the client browser for the frontend.
+Run `npm start`, to start and open the client browser.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
