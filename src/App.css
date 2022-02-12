@@ -19,12 +19,6 @@ body{
 }
 
 .dropdown-nav {
-  /* overflow: hidden; */
-  /* position: fixed; Set the navbar to fixed position8 */
-  /* top: 0; Position the navbar at the top of the page */
-  /* width: 100%; Full width */
-  /* font-size: 20px;  */
-  /* background-color: RGB(145, 195, 194); */
   position:relative;
   display:inline-block;
   margin-right: -70%;
@@ -56,21 +50,6 @@ body{
 .dropdown-nav:hover .dropdown-content {
   display: block;
 }
-
-/* #nav a {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-nav a:hover {
-  background: grey;
-  color: black;
-} */
 
 /* button */
 button {
