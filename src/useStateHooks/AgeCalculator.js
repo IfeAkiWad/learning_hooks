@@ -8,6 +8,10 @@ import TimesThree from "./TimesThree";
     
     const handleOnChange = (event) => {
         setAge(event.target.value)
+        if (isNaN(event.target.value)) {
+          alert(`"${event.target.value}" is not a number`)
+          setAge("")
+        }
     }
 
     useEffect(() => {
