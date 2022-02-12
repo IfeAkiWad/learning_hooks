@@ -22,8 +22,8 @@ export default class ClassComponentCounter extends Component {
     return (
         <div>
             <br />
-            <button onClick={this.resetCount}>RESET</button><br />
             <h1>{this.state.count}</h1>
+            <button onClick={this.resetCount}>RESET</button>&nbsp;&nbsp;
             <button onClick = {this.incrementer}>CLICK!</button>
         </div>
     )
