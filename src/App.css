@@ -25,8 +25,9 @@ body{
   /* width: 100%; Full width */
   /* font-size: 20px;  */
   /* background-color: RGB(145, 195, 194); */
-  position: relative;
-  display: inline-block;
+  position:relative;
+  display:inline-block;
+  margin-right: -70%;
 }
 
 /* Dropdown Content (Hidden by Default) */

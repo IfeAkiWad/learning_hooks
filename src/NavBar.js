@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const NavBar = () => {
     return (
         <nav className="dropdown-nav">
-            <button class="dropbtn">Dropdown</button>
+            <button class="dropbtn">Menu</button>
             <div className="dropdown-content">  
                 <Link id="link" to="/vacation"> VACATION</Link> 
                 <Link id="link" to="/clickers"> CLICKERS</Link> 
