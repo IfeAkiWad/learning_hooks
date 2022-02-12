@@ -8,9 +8,9 @@ body{
 }
 /* Navigation */
 
-#nav {
+.dropdown-nav {
   overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
+  position: fixed; /*Set the navbar to fixed position8*/
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   font-size: 20px; 
