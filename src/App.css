@@ -6,6 +6,7 @@
 body{
   background-color: RGB(244, 244, 244);
 }
+
 /* Navigation */
 /* Style The Dropdown Button */
 .dropbtn {
@@ -32,7 +33,7 @@ body{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #FFC300;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -71,7 +72,7 @@ nav a:hover {
 
 /* button */
 button {
-  background-color: RGB(255, 195, 71);
+  background-color: RGB(255, 195, 0);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
 
