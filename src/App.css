@@ -28,6 +28,7 @@ body{
   position:relative;
   display:inline-block;
   margin-right: -70%;
+  margin-top: -5%;
 }
 
 /* Dropdown Content (Hidden by Default) */
