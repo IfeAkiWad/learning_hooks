@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <nav className="dropdown-nav">
             <button class="dropbtn">Dropdown</button>
-            <div className="dropdown-content">>   
+            <div className="dropdown-content">  
                 <Link id="link" to="/vacation"> VACATION</Link> 
                 <Link id="link" to="/clickers"> CLICKERS</Link> 
                 <Link id="link" to="/age-calculator"> AGE CALCULATOR</Link> 
