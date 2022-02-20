@@ -24,6 +24,11 @@ const Mood = () => {
         </div>
       })}
      <br /><br />
+     <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useReducer/Mood.js" rel="noreferrer" target="_blank">Code</a><br />
+     <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useReducer/reducer.js" rel="noreferrer" target="_blank">Reducer Code</a><br />
+     <a id="github" href="https://github.com/IfeAkiWad/learning_hooks/blob/master/src/useReducer/initialMoods.js" rel="noreferrer" target="_blank">Initial State Code</a>
+
+
     </div>
   )
 }
