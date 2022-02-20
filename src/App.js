@@ -8,6 +8,7 @@ import Timer from './useEffectHook/Timer';
 import Clock from './useEffectHook/Clock';
 import Vacation from './useContext/Vacation';
 import Home from './Home';
+import Mood from './useReducer/Mood';
 
 class App extends Component {
     render() { 
@@ -17,6 +18,7 @@ class App extends Component {
                 <NavBar />
                     <Routes>
                     <Route path="/learning_hooks/" element={<Home />} /> 
+                    <Route path="/mood" element={<Mood />}/>
                     <Route path="/clickers" element={<UseStateHook />}/>
                     <Route path="/age-calculator" element={<AgeCalculator />}/>
                     <Route path="/timer" element={<Timer />}/>
