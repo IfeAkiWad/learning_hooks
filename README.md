@@ -1,6 +1,7 @@
 # Learning Hooks
 
 A React app showcasing my learning of React hooks in real time.
+https://ifeakiwad.github.io/learning_hooks/
 
 ## Installation
 
